@@ -1,20 +1,15 @@
-# 2048-C-Sharp
-exact replica of the 2048 I have made in the python version.
+# Sorting
 
-Contains a folder named "2048 ai" which is the exact replica of the intial ai I have made in the python version.
+Visualises sorting using space efficent algorithms for now e.g:
 
-I have ported the python code in C# specifically to see if the algorithm was to perform better in strict timed scenerios in C# which is a faster language than Python and allows to run the algorithm at higher depth. The whole code is exactly the same, using just the C# language counterparts. However the difference in the performance when running the code is not definative enough just from minimal amount of running (due to the random nature of the game), so a proper test with a decent sample size is necessary to see if the faster speed of C# allows the ai to score higher in the game.
+-BubbleSort
+-SelectionSort
+-QuickSort
 
-TO DO:
+Applies sorting on a array of unsorted numbers and keeps track of number of swaps done.
 
--Make a even more optimised version of 2048 ai in C# (for its comparative fast speed while running) to run and see if it can reach the 8192 block.
+![Form1 18_09_2023 11_06_07 pm](https://github.com/NubSh0t/Csharp-projects/assets/113845503/d1954500-42bc-495e-98c4-6b1b7317ee9e)
 
--Few optimisations/approaches planned are listed:
+![Form1 18_09_2023 11_06_00 pm](https://github.com/NubSh0t/Csharp-projects/assets/113845503/1139c0ff-4f10-435d-8827-a7cab7213976)
 
-  > Using some algorithm like A* star to traverse the game graph rather than expectimax(it allows for a more open approach).
-
-  > Using NN or a adaptive model to score the postion of board rather than hard coding the values manually(which should comparatively work out towards a better performance).
-
-  > Implementing a 2 stage evaluation of board, where a predicted or approximate score is given to a position of the board, before being rigorously tested to give out a finalised hard score of the position(this should allow for higher depths and saving time by pruning).
-
-  > Looking out of Transpositions while evaluating and using a hash table to store different positions. 
+![Form1 18_09_2023 11_06_03 pm](https://github.com/NubSh0t/Csharp-projects/assets/113845503/4e024732-917f-41f7-addc-d89c8218ff42)
