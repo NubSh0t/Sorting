@@ -1,4 +1,4 @@
-# 2048-C-
+# 2048-C-Sharp
 exact replica of the 2048 I have made in the python version.
 
 Contains a folder named "2048 ai" which is the exact replica of the intial ai I have made in the python version.
